@@ -1,5 +1,5 @@
 
-codeunit 50100 "Training Registration Install"
+codeunit 50100 "Training Registration Mgt"
 {
     Subtype = Install;
 

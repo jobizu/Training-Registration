@@ -62,11 +62,11 @@ page 50102 "Training Registration Card"
                     ApplicationArea = All;
                     ToolTip = 'Displays the date the registration was created.';
                 }
-
                 field(Status; Rec.Status)
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Displays the current registration status.';
+                    Editable = false;
+                    ToolTip = 'Displays the current registration status. Status is changed through registration actions.';
                 }
 
                 field(Remarks; Rec.Remarks)
