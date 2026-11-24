@@ -1,4 +1,3 @@
-
 {
     "version": "0.2.0",
     "configurations": [
@@ -11,7 +10,25 @@
             "serverInstance": "BC290",
             "port": 7049,
             "authentication": "Windows",
-            "startupObjectId": 22,
+            "startupObjectId": 50100,
+            "startupObjectType": "Page",
+            "breakOnError": "None",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": false,
+            "enableSqlInformationDebugger": false,
+            "tenant": "default",
+            "usePublicURLFromServer": false
+        },
+        {
+            "name": "Business Central Local Server (debug demo)",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://localhost:8080",
+            "serverInstance": "BC290",
+            "port": 7049,
+            "authentication": "Windows",
+            "startupObjectId": 50100,
             "startupObjectType": "Page",
             "breakOnError": "All",
             "launchBrowser": true,
